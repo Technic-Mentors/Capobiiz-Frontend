@@ -8,7 +8,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
 import Clients from './Clients';
-import { Helmet } from 'react-helmet';
 
 function About() {
   useEffect(() => {
@@ -17,11 +16,7 @@ function About() {
 
   return (
     <div>
-      <Helmet>
-        <title>About CapoBiz POS - Retail Software Innovators</title>
-        <meta name="description" content="Learn about CapoBiz POS, a leader in retail software innovation. Our mission is to empower businesses with cutting-edge POS systems" />
-        <link rel="canonical" href="https://capobiz.com/about" />
-      </Helmet>
+
       <section className="inner-page-header">
         <div className="inner-page-overlay">
           <div className="container">
@@ -346,7 +341,7 @@ function About() {
           data-aos-easing="ease-in-out"
         >
           <div className="section-title">
-            <h2 className="subtitle text-center">F.A.Q</h2>
+          <h2 className="subtitle text-center">F.A.Q</h2>
             <p className='text-center'> Frequently Asked <span>Questions</span> </p>
             <p className='text-center'>
               Our curated list of the most frequently asked questions about us.
@@ -356,7 +351,7 @@ function About() {
           <div className="row justify-content-center">
             <div className="col-xl-10">
               <ul className="faq-list">
-
+               
                 <li>
                   <div
                     data-bs-toggle="collapse"
@@ -373,7 +368,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      CapoBiz is a robust software solution designed to help businesses manage stock/inventory, sales, purchases, production, manufacturing, and more. It offers tools for inventory tracking, sales reporting, order management, and production planning, among other features.
+                    CapoBiz is a robust software solution designed to help businesses manage stock/inventory, sales, purchases, production, manufacturing, and more. It offers tools for inventory tracking, sales reporting, order management, and production planning, among other features.
                     </p>
                   </div>
                 </li>
@@ -393,7 +388,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      CapoBiz is designed to cater to a wide range of industries including retail shops, supermarkets, pharmacies, mobile shops, garment stores, shoe shops, fertilizers industry, tiles industry, and more. Its customizable features make it adaptable to the unique needs of various businesses.
+                    CapoBiz is designed to cater to a wide range of industries including retail shops, supermarkets, pharmacies, mobile shops, garment stores, shoe shops, fertilizers industry, tiles industry, and more. Its customizable features make it adaptable to the unique needs of various businesses.
                     </p>
                   </div>
                 </li>
@@ -413,7 +408,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      CapoBiz offers restaurant management software designed to streamline operations, manage inventory, track sales, handle reservations, and improve customer service. It includes features such as menu management, table booking, kitchen order management, and billing.
+                    CapoBiz offers restaurant management software designed to streamline operations, manage inventory, track sales, handle reservations, and improve customer service. It includes features such as menu management, table booking, kitchen order management, and billing.
                     </p>
                   </div>
                 </li>
@@ -433,7 +428,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      Yes, CapoBiz provides a comprehensive real estate management software solution to streamline property management tasks such as listings management, tenant tracking, lease management, maintenance scheduling, and financial reporting.
+                    Yes, CapoBiz provides a comprehensive real estate management software solution to streamline property management tasks such as listings management, tenant tracking, lease management, maintenance scheduling, and financial reporting.
                     </p>
                   </div>
                 </li>
@@ -453,7 +448,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      CapoBiz gym management software helps fitness centers streamline membership management, class scheduling, trainer scheduling, billing, and attendance tracking. It enables gym owners to efficiently run their operations and enhance member satisfaction.
+                    CapoBiz gym management software helps fitness centers streamline membership management, class scheduling, trainer scheduling, billing, and attendance tracking. It enables gym owners to efficiently run their operations and enhance member satisfaction.
                     </p>
                   </div>
                 </li>
@@ -473,7 +468,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      Absolutely! CapoBiz offers tailor shop management software tailored to the unique needs of tailoring businesses. It includes features for measuring, order management, fabric tracking, invoicing, and customer management..
+                    Absolutely! CapoBiz offers tailor shop management software tailored to the unique needs of tailoring businesses. It includes features for measuring, order management, fabric tracking, invoicing, and customer management..
                     </p>
                   </div>
                 </li>
@@ -493,7 +488,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      Yes, CapoBiz offers trading software solutions to manage trading operations efficiently. It includes features for order processing, inventory management, sales analysis, purchase management, and reporting.
+                    Yes, CapoBiz offers trading software solutions to manage trading operations efficiently. It includes features for order processing, inventory management, sales analysis, purchase management, and reporting.
                     </p>
                   </div>
                 </li>
@@ -513,7 +508,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      CapoBiz provides office management software solutions to streamline administrative tasks, enhance productivity, and improve communication within the office environment. It offers features for task management, document sharing, employee scheduling, and more.
+                    CapoBiz provides office management software solutions to streamline administrative tasks, enhance productivity, and improve communication within the office environment. It offers features for task management, document sharing, employee scheduling, and more.
                     </p>
                   </div>
                 </li>
@@ -522,15 +517,15 @@ function About() {
           </div>
         </div>
         <div className="d-flex justify-content-center">
-          <button className="site-buttons">
-            <Link to="/faqs" style={{ color: "var(--primary-color)" }}>
-              View More <span>&rarr;</span>
-            </Link>
-          </button>
+        <button className="site-buttons">
+                <Link to="/faqs" style={{ color: "var(--primary-color)" }}>
+                View More <span>&rarr;</span>
+                </Link>
+              </button>
         </div>
       </section>
       {/* FAQ end */}
-
+      
 
       <Clients />
 

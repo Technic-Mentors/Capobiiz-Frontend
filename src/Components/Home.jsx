@@ -19,7 +19,6 @@ import FAQs from "./FAQs";
 import Transparent from "./Transparent";
 import nextGenRetailSoftware from '../Assets/Images/next-gen-retail-software.avif'
 import Clients from "./Clients";
-import { Helmet } from "react-helmet";
 
 function Home() {
 
@@ -37,12 +36,6 @@ function Home() {
 
   return (
     <div>
-      <Helmet>
-        <title>Best Retail Software - Capobiz</title>
-        <meta name="description" content="CapoBiz POS offers top retail software to streamline sales, inventory, and customer management. Optimize your retail business with our advanced POS solutions. " />
-        <link rel="canonical" href="https://capobiz.com/" />
-      </Helmet>
-
       <Transparent />
 
       <section className="about-section py-4" style={{ backgroundColor: '#fff' }}>
@@ -160,7 +153,7 @@ function Home() {
 
       <FeaturesComponent />
 
-      <section className="businesses py-5" style={{ backgroundColor: '#f1f3fb' }}>
+      <section className="businesses py-5" style={{backgroundColor: '#f1f3fb'}}>
         <div className="container">
           <div className="row  justify-content-between">
             <div className="line-img">
@@ -178,14 +171,14 @@ function Home() {
                 streamlines your billing process, ensuring swift and precise
                 transactions that delight your customers.</p>
 
-              <Link to="/retail"> <button className="site-buttons">Know More <span>&rarr;</span></button></Link>
+               <Link to="/retail"> <button className="site-buttons">Know More <span>&rarr;</span></button></Link>
             </div>
             <div className="col-md-5">
-              <img src={nextGenRetailSoftware} alt="retail-software-solution" className="img-fluid" style={{ height: '300px' }} />
+              <img src={nextGenRetailSoftware} alt="retail-software-solution" className="img-fluid" style={{height: '300px'}} />
             </div>
           </div>
         </div>
-
+        
       </section>
 
       <section className="new-section">
@@ -222,27 +215,27 @@ function Home() {
 
       <section className="py-4">
         <div className="restaurant-section">
-          <div className="restaurant-overlay">
-            <div className="container">
-              <div className="row g-5 d-flex align-items-center">
-                <div className="col-md-5">
-                  <img src={RestaurantPOS} alt="" className="img-fluid" />
-                </div>
-                <div className="col-md-6 mb-3">
-                  <div className="section-heading">
-                    <h6 className="subtitle">
-                      CapoBiz Restaurant Management System
-                    </h6>
-                    <h2 className="main-he">
-                      Efficient And Intuitive Restaurant Management
-                    </h2>
-                  </div>
-                  <p className="mt-4">A restaurant management system serves as the backbone of a successful restaurant business, offering a centralized platform to streamline operations and enhance efficiency. </p>
-                  <Link to="/restaurant"><button className="site-buttons">Know More <span>&rarr;</span></button></Link>
-                </div>
-              </div>
+        <div className="restaurant-overlay">
+        <div className="container">
+          <div className="row g-5 d-flex align-items-center">
+            <div className="col-md-5">
+            <img src={RestaurantPOS} alt="" className="img-fluid" />
             </div>
+            <div className="col-md-6 mb-3">
+              <div className="section-heading">
+                <h6 className="subtitle">
+                  CapoBiz Restaurant Management System
+                </h6>
+                <h2 className="main-he">
+                Efficient And Intuitive Restaurant Management
+                </h2>
+              </div>
+              <p className="mt-4">A restaurant management system serves as the backbone of a successful restaurant business, offering a centralized platform to streamline operations and enhance efficiency. </p>
+              <Link to="/restaurant"><button className="site-buttons">Know More <span>&rarr;</span></button></Link>
+            </div>            
           </div>
+        </div>
+        </div>
         </div>
       </section>
 
@@ -259,7 +252,7 @@ function Home() {
               <h2 className="main-heading">Explore More Industries Supported By Our POS Software</h2>
             </div>
             <div
-              className="col-md-12 jutify-content-center py-2 mb-3 align-items-center" style={{ boxShadow: '0 0 10px rgba(204, 204, 204, 0.8)', borderRadius: '25px', backgroundColor: '#fff' }}>
+              className="col-md-12 jutify-content-center py-2 mb-3 align-items-center" style={{boxShadow: '0 0 10px rgba(204, 204, 204, 0.8)', borderRadius: '25px', backgroundColor: '#fff'}}>
               <ul
                 className="nav nav-tabs d-flex align-items-center justify-content-center industries nav-justified"
                 id="ex1"
@@ -383,7 +376,7 @@ function Home() {
                       fontWeight: "bold",
                       display: 'block',
                       padding: '17px',
-                      borderRadius: "25px",
+                      borderRadius:  "25px",
                       color: activeTab === "mobile-shop-pos" ? "#fff" : "var(--primary-color)",
                       backgroundColor:
                         activeTab === "mobile-shop-pos" ? "var(--secondary-color)" : "#f1f3fb",
