@@ -38,7 +38,7 @@ import PendingTicket from './Components/PendingTicket';
 import GeneratedTickets from './Components/GeneratedTickets';
 import Help from './Components/Help';
 import AllTickets from './Components/AllTickets';
-import SeoTags from './Components/SeoTags';
+// import SeoTags from './Components/SeoTags';
 // import Navbtransparent from './Components/Navtransparent';
 
 function App() {
@@ -48,7 +48,7 @@ function App() {
         <MyProvider>
           <Topbar />
           <Navbar />
-          <SeoTags />
+          {/* <SeoTags /> */}
           <ScrollToTop />
           <Livechat />
           <Routes>
