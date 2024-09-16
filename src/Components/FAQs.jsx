@@ -18,13 +18,13 @@ function FAQs() {
         <div className="container p-4">
           <div className="row">
             <div className="faq-content text-center mb-3 mt-4">
-              <h6 className="subtitle">Frequently Asked Questions</h6>
-              <h2 className="main-heading">Your Concerns Matter The Most!</h2>
+              <h2 className="subtitle">Frequently Asked Questions</h2>
+              <h3 className="main-heading">Your Concerns Matter The Most!</h3>
             </div>
             <div className="col-md-6" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1200">
               <div className="accordion" id="accordionPanelsStayOpenExampleLeft">
                 <div className="accordion-item">
-                  <h2 className={`accordion-header ${activeAccordionLeft !== 1 ? 'closed' : ''}`} id="headingOneLeft">
+                  <p className={`accordion-header ${activeAccordionLeft !== 1 ? 'closed' : ''}`} id="headingOneLeft">
                     <button
                       className={`accordion-button ${activeAccordionLeft === 1 ? 'active' : ''}`}
                       type="button"
@@ -38,7 +38,7 @@ function FAQs() {
                     >
                       Q: What features does CapoBiz POS software offer?
                     </button>
-                  </h2>
+                  </p>
                   <div
                     className={`accordion-collapse collapse ${activeAccordionLeft === 1 ? 'show' : ''}`}
                     id="panelsStayOpen-collapseOneLeft"
@@ -51,7 +51,7 @@ function FAQs() {
                 </div>
 
                 <div className="accordion-item">
-                  <h2 className={`accordion-header ${activeAccordionLeft !== 2 ? 'closed' : ''}`} id="headingTwoLeft">
+                  <p className={`accordion-header ${activeAccordionLeft !== 2 ? 'closed' : ''}`} id="headingTwoLeft">
                     <button
                       className={`accordion-button ${activeAccordionLeft === 2 ? 'active' : ''}`}
                       type="button"
@@ -65,7 +65,7 @@ function FAQs() {
                     >
                         Q: Is this point of sale software compatible with different hardware devices?
                     </button>
-                  </h2>
+                  </p>
                 <div
                   className={`accordion-collapse collapse ${activeAccordionLeft === 2 ? 'show' : ''}`}
                   id="panelsStayOpen-collapseTwoLeft"
@@ -79,7 +79,7 @@ function FAQs() {
 
 
                 <div className="accordion-item">
-                  <h2 className={`accordion-header ${activeAccordionLeft !== 3 ? 'closed' : ''}`} id="headingThreeLeft">
+                  <p className={`accordion-header ${activeAccordionLeft !== 3 ? 'closed' : ''}`} id="headingThreeLeft">
                     <button
                       className={`accordion-button ${activeAccordionLeft === 3 ? 'active' : ''}`}
                       type="button"
@@ -93,7 +93,7 @@ function FAQs() {
                   >
                    How secure is the data processed by this POS system?
                     </button>
-                  </h2>
+                  </p>
                 <div
                   className={`accordion-collapse collapse ${activeAccordionLeft === 3 ? 'show' : ''}`}
                   id="panelsStayOpen-collapseThreeLeft"
@@ -112,7 +112,7 @@ function FAQs() {
             <div className="col-md-6" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1200">
               <div className="accordion" id="accordionPanelsStayOpenExampleRight">
                 <div className="accordion-item">
-                  <h2 className={`accordion-header ${activeAccordionRight !== 4 ? 'closed' : ''}`} id="headingOneRight">
+                  <p className={`accordion-header ${activeAccordionRight !== 4 ? 'closed' : ''}`} id="headingOneRight">
                     <button
                       className={`accordion-button ${activeAccordionRight === 4 ? 'active' : ''}`}
                       type="button"
@@ -126,7 +126,7 @@ function FAQs() {
                     >
                       Q: Can CapoBiz POS software be customized to suit specific business needs?
                     </button>
-                  </h2>
+                  </p>
                   <div
                     className={`accordion-collapse collapse ${activeAccordionRight === 4 ? 'show' : ''}`}
                     id="panelsStayOpen-collapseOneRight"
@@ -139,7 +139,7 @@ function FAQs() {
                 </div>
 
                 <div className="accordion-item">
-                  <h2 className={`accordion-header ${activeAccordionRight !== 5 ? 'closed' : ''}`} id="headingTwoRight">
+                  <p className={`accordion-header ${activeAccordionRight !== 5 ? 'closed' : ''}`} id="headingTwoRight">
                     <button
                       className={`accordion-button ${activeAccordionRight === 5 ? 'active' : ''}`}
                       type="button"
@@ -153,7 +153,7 @@ function FAQs() {
                     >
                      Q: Does Technic Mentors provide training and support for their POS software?
                     </button>
-                  </h2>
+                  </p>
                   <div
                     className={`accordion-collapse collapse ${activeAccordionRight === 5 ? 'show' : ''}`}
                     id="panelsStayOpen-collapseTwoRight"
@@ -169,7 +169,7 @@ function FAQs() {
 
 
                 <div className="accordion-item">
-                  <h2 className={`accordion-header ${activeAccordionRight !== 6 ? 'closed' : ''}`} id="headingThreeRight">
+                  <p className={`accordion-header ${activeAccordionRight !== 6 ? 'closed' : ''}`} id="headingThreeRight">
                     <button
                       className={`accordion-button ${activeAccordionRight === 6 ? 'active' : ''}`}
                       type="button"
@@ -183,7 +183,7 @@ function FAQs() {
                     >
                       Q: How will you update your POS software?
                     </button>
-                  </h2>
+                  </p>
                    <div
                       className={`accordion-collapse collapse ${activeAccordionRight === 6 ? 'show' : ''}`}
                       id="panelsStayOpen-collapseThreeRight"

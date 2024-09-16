@@ -31,7 +31,7 @@ function Restaurant() {
           <div className="row g-5 d-flex justify-content-center align-items-center">
             <div className="col-md-6" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <div className="section-header">
-                <h6 className="subtitle mb-3">CapoBiz Restaurant Management</h6>
+                <h1 className="subtitle mb-3">Best POS System For Restaurant</h1>
                 <h2 className="main-heading text-light mb-4">
                   Enhancing Restaurant Efficiency And Service
                 </h2>
@@ -53,7 +53,7 @@ function Restaurant() {
             <div className="col-md-6" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <img
                 src={RestaurantPOS}
-                alt=""
+                alt="restaurant-pos"
                 className="img-fluid restaurant-pos"
               />
             </div>
@@ -68,19 +68,19 @@ function Restaurant() {
           <div className="row py-5 g-5">
             <div className="col-md-7" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <div className="section-header">
-                <h6 className="subtitle">
+                <h2 className="subtitle">
                 Empowering Restaurants for Success
-                </h6>
-                <h2 className="main-heading">
-                The Role of a Restaurant Management System
                 </h2>
+                <h3 className="main-heading">
+                The Role of a Restaurant Management System
+                </h3>
               </div>
-              <p>A restaurant management system serves as the backbone of a successful restaurant business, offering a centralized platform to streamline operations and enhance efficiency. From managing reservations and orders to tracking inventory and analyzing sales data, a robust restaurant management system automates tedious tasks, improves decision-making, and ensures seamless operations.<br /><br /> By leveraging technology to optimize workflows and enhance customer experiences, a restaurant management system empowers restaurant owners to focus on delivering exceptional dining experiences and driving business growth.</p>
+              <p>A best POS system for restaurant management serves as the backbone of a successful restaurant business, offering a centralized platform to streamline operations and enhance efficiency. From managing reservations and orders to tracking inventory and analyzing sales data, a robust restaurant management system automates tedious tasks, improves decision-making, and ensures seamless operations.<br /><br /> By leveraging technology to optimize workflows and enhance customer experiences, a restaurant management system empowers restaurant owners to focus on delivering exceptional dining experiences and driving business growth.</p>
               <Link to='/contact'><button className="site-buttons">Grow Your Restaurant <span>&rarr;</span></button></Link>
             </div>
 
             <div className="col-md-5" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-              <img src={posIntro} alt="" className="img-fluid" />
+              <img src={posIntro} alt="restaurant-pos" className="img-fluid" />
             </div>
           </div>
         </div>
@@ -96,10 +96,10 @@ function Restaurant() {
       >
         <div className="container">
           <div className="section-header mb-5 text-center">
-            <h6 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">What Does this system offer?</h6>
-            <h2 className="main-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
+            <h2 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">What Does this system offer?</h2>
+            <h3 className="main-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               Special Features Of CapoBiz Restaurant Management System
-            </h2>
+            </h3>
           </div>
           <div className="row">
             <div className="col-md-3 text-center" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
@@ -108,7 +108,7 @@ function Restaurant() {
                   <OutdoorGrillIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>Products & Production Management</h5>
+                  <p style={{fontSize: '20px'}}>Products & Production Management</p>
                   <p>
                     CapoBiz restaurant management system helps you keep an eye
                     on the products and their used amount in different recipes.
@@ -122,7 +122,7 @@ function Restaurant() {
                   <ShowChartIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>Stock Management</h5>
+                  <p style={{fontSize: '20px'}}>Stock Management</p>
                   <p>
                     Be one step ahead! CapoBiz helps you preempt and maintain
                     the stock of your hottest recipes. With this feature, you
@@ -137,7 +137,7 @@ function Restaurant() {
                   <ShoppingBasketIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>Sales & Purchase Management</h5>
+                  <p style={{fontSize: '20px'}}>Sales & Purchase Management</p>
                   <p>
                     Sales and purchases are the most important aspect of your
                     restaurant. Keep track of your daily sold out food items and
@@ -152,7 +152,7 @@ function Restaurant() {
                   <CurrencyExchangeIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>Accounts & Expenses Management</h5>
+                  <p style={{fontSize: '20px'}}>Accounts & Expenses Management</p>
                   <p>
                     With CapoBiz, you have a completely transparent accounting
                     and expenses management system, be it employee or customer
@@ -169,7 +169,7 @@ function Restaurant() {
                   <PeopleIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>People Management</h5>
+                  <p style={{fontSize: '20px'}}>People Management</p>
                   <p>
                     Manage the record of your chefs and other working staff,
                     have complete record of everyone's performance, and create
@@ -184,7 +184,7 @@ function Restaurant() {
                   <ReceiptLongIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>Effortless Billing And Invoicing</h5>
+                  <p style={{fontSize: '20px'}}>Effortless Billing And Invoicing</p>
                   <p>
                     CapoBiz streamlines billing and invoicing with seamless
                     precision, ensuring efficient transactions for your
@@ -199,7 +199,7 @@ function Restaurant() {
                   <AssessmentIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5> Reporting And Analytics</h5>
+                  <p style={{fontSize: '20px'}}> Reporting And Analytics</p>
                   <p>
                     CapoBiz offers comprehensive reporting capabilities,
                     providing valuable insights to optimize business
@@ -214,7 +214,7 @@ function Restaurant() {
                   <AddToDriveIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>Data Backup And Security</h5>
+                  <p style={{fontSize: '20px'}}>Data Backup And Security</p>
                   <p>
                     CapoBiz ensures peace of mind with complete data backup and
                     security, safeguarding your restaurant's valuable
@@ -232,10 +232,10 @@ function Restaurant() {
           
           <div className="row d-flex justify-content-center">
           <div className="section-header text-center mb-4">
-            <h6 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">What's more??</h6>
-            <h2 className="main-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200" >
+            <h2 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">What's more??</h2>
+            <h3 className="main-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200" >
               More Compelling Reasons To Have CapoBiz At Your Restaurant
-            </h2>
+            </h3>
             <p data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Discover More Compelling Reasons To Choose CapoBiz for Your Restaurant. Elevate your restaurant's performance with CapoBiz Restaurant Management System. From efficient table management to streamlined inventory tracking, CapoBiz offers a comprehensive solution to drive success in your restaurant business.</p>
           </div>
           
@@ -257,21 +257,6 @@ function Restaurant() {
                     <li><CheckCircleOutlineIcon style={{color: 'var(--secondary-color)', fontSize: '20px'}} />&nbsp;<span style={{fontWeight: 'bold'}}>Delivery Management:</span> Simplify delivery management with CapoBiz's comprehensive system, optimizing delivery processes and providing real-time tracking for exceptional delivery experiences.</li>
                     
                 </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-     
-      <section className="restaurant-cta ">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-8">
-              <div className="section-header py-7 cta-rest text-light">
-                <h6 className="subtitle">Spice Up Your Success</h6>
-                <h2 className="stroke-heading">
-                  Take Your Restaurant To <br /><span style={{fontSize: '220%' }}>New Heights</span><br /> With CapoBiz
-                </h2>
-              </div>
             </div>
           </div>
         </div>

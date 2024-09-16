@@ -8,14 +8,12 @@ export default function DetailFAQ() {
           <div className="container">
             <div className="row slider d-flex justify-content-center py-7 align-items-center">
               <div className="col-md-12 text-center content-col">
-                <h2 className="slider-heading">
-                Most Asked{" "}
+                <h1 className="slider-heading">
+                FAQs For Our{" "}
                   <span style={{ color: "var(--secondary-color)" }}>
-
-                   Questions
+                   POS Software
                   </span>{" "}
-                  About Us
-                </h2>
+                </h1>
 
               </div>
 
@@ -32,10 +30,10 @@ export default function DetailFAQ() {
           data-aos-easing="ease-in-out"
         >
           <div className="section-title">
-          <h2 className="subtitle text-center">F.A.Q</h2>
+          <h2 className="subtitle text-center">FAQs</h2>
             <p className='text-center'> Frequently Asked <span>Questions</span> </p>
             <p className='text-center'>
-              Our curated list of the most frequently asked questions about us.
+              Below is the lsit of the FAQs for our POS software.
             </p>
           </div>
 

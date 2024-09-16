@@ -10,7 +10,7 @@ import PharmacyPOS from '../Assets/Images/pharmacy-pos.avif'
 import FertilizersPOS from '../Assets/Images/pos-for-fertilizers-shop.avif'
 import TradingPOS from '../Assets/Images/pos-for-trading-business.avif'
 import MobileShopPOS from '../Assets/Images/pos-for-mobile-shop.avif'
-import Testimonials from "./Testimonials";
+// import Testimonials from "./Testimonials";
 import lineImg from '../Assets/Images/businesses-section-bg.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -43,10 +43,10 @@ function Home() {
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-md-6 col-12" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1200">
               <div className="section-heading">
-                <h6 className="subtitle" style={{ color: "var(--secondary-color)" }}>
+                <h2 className="subtitle" style={{ color: "var(--secondary-color)" }}>
                   Smart POS, Your Business Ally
-                </h6>
-                <h1
+                </h2>
+                <h3
                   style={{
                     fontSize: "32px",
                     color: "var(--primary-color)",
@@ -54,7 +54,7 @@ function Home() {
                   }}
                 >
                   Elevate Efficiency with Our Point of Sale Software
-                </h1>
+                </h3>
               </div>
               <p>
                 Step into a new era of business management with our cutting-edge
@@ -157,12 +157,12 @@ function Home() {
         <div className="container">
           <div className="row  justify-content-between">
             <div className="line-img">
-              <img src={lineImg} alt="" className="img-fluid" />
+              <img src={lineImg} alt="Best Retail Software" className="img-fluid" />
             </div>
             <div className="col-md-6">
               <div className="section-heading">
-                <h6 className="subtitle">Retail Software</h6>
-                <h2 className="main-heading">Next-Generation Retail Software Solution</h2>
+                <h2 className="subtitle">Retail Software</h2>
+                <h3 className="main-heading">Next-Generation Retail Software Solution</h3>
               </div>
               <p className="mt-4">CapoBiz Retail software is crafted to amplify profitability and
                 streamline operations for your retail enterprise. Say goodbye to
@@ -171,10 +171,10 @@ function Home() {
                 streamlines your billing process, ensuring swift and precise
                 transactions that delight your customers.</p>
 
-               <Link to="/retail"> <button className="site-buttons">Know More <span>&rarr;</span></button></Link>
+               <Link to="/retail-pos-system"> <button className="site-buttons">Know More <span>&rarr;</span></button></Link>
             </div>
             <div className="col-md-5">
-              <img src={nextGenRetailSoftware} alt="retail-software-solution" className="img-fluid" style={{height: '300px'}} />
+              <img src={nextGenRetailSoftware} alt="best-retail-software" className="img-fluid" style={{height: '300px'}} />
             </div>
           </div>
         </div>
@@ -186,8 +186,8 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className="col-md-6 mt-5" data-aos="fade-down" data-aos-offset="200" data-aos-duration="1200">
-                <h6 className="subtitle">Meet the Innovators</h6>
-                <h2 className="main-heading mb-4" style={{ color: '#fff', fontSize: '28px', fontWeight: 'lighter' }}>Technic Mentors, Pioneering <br /> POS Excellence</h2>
+                <h2 className="subtitle">Meet the Innovators</h2>
+                <h3 className="main-heading mb-4" style={{ color: '#fff', fontSize: '28px', fontWeight: 'lighter' }}>Technic Mentors, Pioneering <br /> POS Excellence</h3>
                 <p className="text-light mb-5" style={{ fontSize: '15px', fontWeight: 'light' }}>Technic mentors is the best IT consulting company to look at when searching for extraordinary software and technology solutions. We provide value-added and quality products and services. Our team is specialized and experienced and provides our clients with the finest experience ever. We provide comprehensive IT solutions tailored to the unique needs of our diverse client base, which includes commercial clients, government agencies, educational institutions, and schools.</p>
                 <button className="site-buttons"><a href="https://technicmentors.com" rel="noreferrer" target="_blank" className="text-light">Visit Site <span>&rarr;</span></a></button>
               </div>
@@ -196,15 +196,15 @@ function Home() {
               </div>
               <div className="row d-flex justify-content-center align-items-center mt-5 mb-4">
                 <div className="col-md-4 technic-mentors" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1200">
-                  <h4 className="">Innovative Solutions</h4>
+                  <p className="" style={{ fontSize: '20px', color: '#fff' }}>Innovative Solutions</p>
                   <p>innovation is not just a trait; it's our DNA. We redefine solutions, setting the standard for Point-of-Sale excellence.</p>
                 </div>
                 <div className="col-md-4 technic-mentors" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                  <h4 className="">Collaborative Partnerships</h4>
+                  <p className="" style={{ fontSize: '20px', color: '#fff' }}>Collaborative Partnerships</p>
                   <p>Fuel success through collaborative partnerships with Technic Mentors, where innovation meets seamless cooperation.</p>
                 </div>
                 <div className="col-md-4" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1200">
-                  <h4 className="" style={{ fontSize: '20px', color: '#fff' }}>Quality And Security</h4>
+                  <p className="" style={{ fontSize: '20px', color: '#fff' }}>Quality And Security</p>
                   <p style={{ fontSize: '15px', color: '#fff' }}>Elevating businesses through unwavering commitment to quality and security, ensuring a seamless and secure experience.</p>
                 </div>
               </div>
@@ -219,19 +219,19 @@ function Home() {
         <div className="container">
           <div className="row g-5 d-flex align-items-center">
             <div className="col-md-5">
-            <img src={RestaurantPOS} alt="" className="img-fluid" />
+            <img src={RestaurantPOS} alt="Best Retail Software" className="img-fluid" />
             </div>
             <div className="col-md-6 mb-3">
               <div className="section-heading">
-                <h6 className="subtitle">
+                <h2 className="subtitle">
                   CapoBiz Restaurant Management System
-                </h6>
-                <h2 className="main-he">
-                Efficient And Intuitive Restaurant Management
                 </h2>
+                <h3 className="main-he">
+                Efficient And Intuitive Restaurant Management
+                </h3>
               </div>
               <p className="mt-4">A restaurant management system serves as the backbone of a successful restaurant business, offering a centralized platform to streamline operations and enhance efficiency. </p>
-              <Link to="/restaurant"><button className="site-buttons">Know More <span>&rarr;</span></button></Link>
+              <Link to="/best-pos-system-for-restaurant"><button className="site-buttons">Learn More <span>&rarr;</span></button></Link>
             </div>            
           </div>
         </div>
@@ -248,8 +248,8 @@ function Home() {
 
           <div className="row">
             <div className="mb-5 text-center">
-              <h6 className="subtitle">For One, For All</h6>
-              <h2 className="main-heading">Explore More Industries Supported By Our POS Software</h2>
+              <h2 className="subtitle">For One, For All</h2>
+              <h3 className="main-heading">Explore More Industries Supported By Our POS Software</h3>
             </div>
             <div
               className="col-md-12 jutify-content-center py-2 mb-3 align-items-center" style={{boxShadow: '0 0 10px rgba(204, 204, 204, 0.8)', borderRadius: '25px', backgroundColor: '#fff'}}>
@@ -530,15 +530,15 @@ function Home() {
         </div>
       </section>
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <section className="multipurpose-pos py-5">
         <div className="bg-overlay">
           <div className="container">
             <div className="row d-flex justify-content-center">
               <div className="col-md-9 text-center">
-                <h6 className="subtitle">Multipurpose Business Software</h6>
-                <h2 className="main-heading">Elevating Your Business Beyond Simple POS</h2>
+                <h2 className="subtitle" >Multipurpose Business Software</h2>
+                <h3 className="main-heading text-white">Elevating Your Business Beyond Simple POS</h3>
                 <p>Enter a new era of operational excellence with our Point of Sale Software, transcending the limitations of traditional POS systems. Beyond a Simple POS, our innovation seamlessly integrates robust Stock & Inventory Management functionalities, ensuring impeccable control. Acting as a dynamic Inventory Management System, our solution transforms transactions into strategic business empowerment. Explore a realm where our POS becomes a catalyst for streamlined operations, strategic decision-making, and unparalleled growth.</p>
               </div>
             </div>

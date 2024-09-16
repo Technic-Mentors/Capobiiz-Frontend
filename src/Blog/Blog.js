@@ -40,9 +40,11 @@ export default function Blog() {
           <div className="container">
             <div className="row slider d-flex justify-content-center py-7 align-items-center">
               <div className="col-md-12 text-center content-col">
-                <h2 className="slider-heading">
-                  Blog Section
-                </h2>
+                <h1 className="slider-heading">
+                  Blog {" "} <span style={{ color: "var(--secondary-color)" }}>
+                    Section
+                  </span>
+                </h1>
               </div>
             </div>
           </div>
@@ -86,9 +88,9 @@ export default function Blog() {
                   <Link style={{ textDecoration: "none" }} to={`/blog/${post.slug}`}>
                     <div className="card h-100">
                       <div className="card-body">
-                        <h5 className="card-title" style={{ fontWeight: "normal",color:"initial" }}>
+                        <p className="card-title" style={{ fontSize: "20px", fontWeight: "normal", color: "initial" }}>
                           {post.title.length > 40 ? post.title.slice(0, 40) + "..." : post.title}
-                        </h5>
+                        </p>
                       </div>
                     </div>
                   </Link>

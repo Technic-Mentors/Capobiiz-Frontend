@@ -59,8 +59,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/pos-demo" element={<Demo />} />
             <Route path="/Signup" element={<UserSignup />} />
-            <Route path="/retail" element={<Retail />} />
-            <Route path="/restaurant" element={<Restaurant />} />
+            <Route path="/retail-pos-system" element={<Retail />} />
+            <Route path="/best-pos-system-for-restaurant" element={<Restaurant />} />
             <Route path="/system-hardware" element={<Hardware />} />
             <Route path="/faqs" element={<DetailFAQ />} />
             <Route path="/header" element={<Testheader />} />

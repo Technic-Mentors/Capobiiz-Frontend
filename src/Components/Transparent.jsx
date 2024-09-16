@@ -11,13 +11,13 @@ function Transparent() {
             <div className="row d-flex justify-content-center py-5 align-items-center">
                 <div className="col-md-6 text-dark" data-aos="fade-right" data-aos-duration="1500">
                   <div className="content-wrapper">
-                <h2 className="slider-heading mb-3" style={{color: '#000',textShadow:"none"}}>
-                Have Total Control <br />And Maximum {" "}
+                <h1 className="slider-heading mb-3" style={{color: '#000',textShadow:"none"}}>
+                Get The Best<br /> Retail Software For Your {" "}
                   <span style={{ color: "var(--secondary-color)" }}>
                      Business Growth 
                   </span>{" "}
                   
-                </h2>
+                </h1>
                 <p className="text-dark" style={{fontSize: '20px'}}>
                 Empowering Your Business Growth. Enhance customer experience and boost revenue with our versatile Point of Sale system.
                 </p>

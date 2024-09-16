@@ -1,15 +1,6 @@
 import {  Inventory2Outlined, ShoppingCartCheckout, Warehouse, Loyalty, CurrencyExchange, GroupAdd } from '@mui/icons-material';
-import { css } from '@mui/styled-engine';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-// import {
-//   Inventory2Outlined,
-//   AddShoppingCartOutlined,
-//   DonutSmallOutlined,
-//   InventoryOutlined,
-//   BadgeOutlined,
-//   FilterListOffOutlined,
-// } from '@mui/icons-material';
 
 function FeaturesComponent() {
   const Features = [
@@ -58,8 +49,8 @@ function FeaturesComponent() {
         <div className='container mt-5'>
           <div className='row d-flex justify-content-center '>
             <div className='p-2 mt-4 mb-4 text-center' data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-              <h6 className="subtitle">Features Showcase</h6>
-              <h2 className="main-heading">Harmonizing Brilliance In Our POS Software</h2>
+              <h2 className="subtitle">Features Showcase</h2>
+              <h3 className="main-heading">Harmonizing Brilliance In Our POS Software</h3>
             </div>
             {featuresData.map((curElem) => {
               const { id, icon, title, description } = curElem;
@@ -69,7 +60,7 @@ function FeaturesComponent() {
                     <div className='card-content'>
                      {/* <span style={{color: 'var(--secondary-color)'}}> {icon}</span> */}
                      {React.cloneElement(icon, { style: { color: 'var(--secondary-color)', fontSize: '35px' }, className: 'features-icons' })}
-                      <h2 className='mt-3'> {title}</h2>
+                      <p style={{fontSize: '21px', color: 'var(--primary-color)'}} className='mt-3 feature-title-home'> {title}</p>
                       <p>{description}</p>
                     </div>
                   </div>

@@ -94,12 +94,12 @@ function Contact() {
           <div className="container">
             <div className="row slider d-flex justify-content-center py-7 align-items-center">
               <div className="col-md-12 text-center content-col">
-                <h2 className="slider-heading">
+                <h1 className="slider-heading">
                   Contact For{" "}
                   <span style={{ color: "var(--secondary-color)" }}>
                     Best POS Software
                   </span>{" "}
-                </h2>
+                </h1>
               </div>
             </div>
           </div>
@@ -115,9 +115,9 @@ function Contact() {
               data-aos-offset="200"
               data-aos-duration="1200"
             >
-              <h2 className="main-heading">Contact Us</h2>
+              <h2 className="main-heading">Contact Us For Best POS Software</h2>
               <p className="mb-5">
-                For any query or question, you can send us a message through
+                For any query or question, you can get in touch with us through
                 this contact form. Or make a call on the given WhatsApp, or
                 write to us on the given email address.
               </p>
@@ -125,16 +125,16 @@ function Contact() {
                 <div className="col-md-6 col-6">
                   <div className="card contact-cards text-center">
                     <i className=" fas fa-envelope fa-2x"></i>
-                    <h6 className="email">Email: info@technicmentors.com</h6>
+                    <p className="email"> info@technicmentors.com</p>
                   </div>
                 </div>
 
                 <div className="col-md-6 col-6">
                   <div className="card contact-cards text-center">
                     <i className="fas fa-phone fa-2x"></i>
-                    <h6 className="phone">
-                      Call At: <br /> +923 111 122 144
-                    </h6>
+                    <p className="phone">
+                       +923 111 122 144
+                    </p>
                   </div>
                 </div>
                 <section className="text-center text-dark mt-4 mb-4">

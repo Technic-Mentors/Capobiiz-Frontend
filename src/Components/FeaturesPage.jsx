@@ -98,12 +98,12 @@ function FeaturesPage() {
           <div className="container">
             <div className="row slider d-flex justify-content-center py-7 align-items-center">
               <div className="col-md-12 text-center content-col">
-                <h2 className="slider-heading">
+                <h1 className="slider-heading">
                   Explore Our{" "}
                   <span style={{ color: "var(--secondary-color)" }}>
                     Features Showcase
                   </span>{" "}
-                </h2>
+                </h1>
                 
               </div>
               
@@ -117,9 +117,9 @@ function FeaturesPage() {
           <div className="row">
             <div className="col-md-12 text-center features-description">
               <div className="features-content">
-                <h6 className="subtitle">Feature Fusion</h6>
-                <h2 className="main-heading">Features That Ease Up Your Life As A Business Owner</h2>
-                <p>Immerse yourself in a world of unparalleled business efficiency with CapoBiz. Our feature-packed system is meticulously crafted to be your ally in navigating the dynamic landscape of commerce. Experience the ease of managing transactions, inventory, and customer interactions seamlessly. Stay steps ahead of your competitors as you leverage the power of CapoBiz to streamline operations, gain valuable insights, and provide an unmatched customer experience. Elevate your business, stand out, and thrive with the innovative features that redefine the essence of convenience for business owners.</p>
+                <h2 className="subtitle">Feature Fusion</h2>
+                <h3 className="main-heading">Features That Ease Up Your Life As A Business Owner</h3>
+                <p>Immerse yourself in a world of unparalleled business efficiency with CapoBiz. Our feature-packed system is meticulously crafted to be your ally in navigating the dynamic landscape of commerce. Experience the ease of managing transactions, inventory, and customer interactions seamlessly. Stay steps ahead of your competitors as you leverage the power of CapoBiz to streamline operations, gain valuable insights, and provide an unmatched customer experience. Explore our features showcase, elevate your business, stand out, and thrive with the innovative features that redefine the essence of convenience for business owners.</p>
               </div>
             </div>
           </div>
@@ -136,7 +136,7 @@ function FeaturesPage() {
                   <div className='card features-card '>
                     <div className='card-content '>
                      {React.cloneElement(icon, { style: { color: 'var(--secondary-color)', fontSize: '35px' }, className: 'features-icons' })}
-                      <h2 className='mt-3'> {title}</h2>
+                      <p style={{fontSize: '21px', color: 'var(--primary-color)'}} className='mt-3 feature-title-home'> {title}</p>
                       <p>{description}</p>
                     </div>
                     </div>
@@ -153,11 +153,11 @@ function FeaturesPage() {
           <div className="row">
             <div className="col-md-7">
               <div className="custom mb-3 mt-4">
-                <h6 className="subtitle">Need Custom Features?</h6>
-                <h2 className="main-heading">Tailored Innovation: Your Business, Your Features</h2>
+                <h2 className="subtitle">Need Custom Features?</h2>
+                <h3 className="main-heading">Tailored Innovation: Your Business, Your Features</h3>
               </div>
               
-              <p><p>Embrace tailored innovation with our point of sale software! Your business is unique, and so are its needs. Our system goes beyond the standard features, offering you the freedom to infuse custom functionalities that align perfectly with your operations. From specialized reporting tools to unique payment integrations, envision the features you need, and we'll bring them to life. This is your journey – let's customize success together!</p></p>
+              <p>Embrace tailored innovation with our advanced retail software! Your business is unique, and so are its needs. Our system goes beyond the standard features, offering you the freedom to infuse custom functionalities that align perfectly with your operations. From specialized reporting tools to unique payment integrations, envision the features you need, and we'll bring them to life. This is your journey – let's customize success together!</p>
               <Link to='/contact'>
               <button className="site-buttons">Ask For Customization <span>&rarr;</span></button>
               </Link>

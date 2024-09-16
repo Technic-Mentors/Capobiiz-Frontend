@@ -31,12 +31,12 @@ function Industrysolutions() {
           <div className="container">
             <div className="row slider d-flex justify-content-center py-7 align-items-center">
               <div className="col-md-12 text-center content-col">
-                <h2 className="slider-heading">
+                <h1 className="slider-heading">
                   A POS For Diverse{" "}
                   <span style={{ color: "var(--secondary-color)" }}>
                     Business Needs
                   </span>{" "}
-                </h2>
+                </h1>
               </div>
             </div>
           </div>
@@ -51,6 +51,7 @@ function Industrysolutions() {
             >
               <div className="section-header">
                 <h2>Covering More Diverse Businesses</h2>
+                <p>We offer tailored retail software solutions for all businesses!</p>
               </div>
             </div>
             <div
@@ -88,10 +89,10 @@ function Industrysolutions() {
         <div className="container-fluid pt-3 pb-2">
           <div className="row">
             <div className="mb-5 text-center">
-              <h6 className="subtitle">For One, For All</h6>
-              <h2 className="main-heading">
+              <h2 className="subtitle">For One, For All</h2>
+              <h3 className="main-heading">
                 Industries Empowered by Our POS Software
-              </h2>
+              </h3>
             </div>
             <div
               className="col-md-3 jutify-content-center align-items-center"
@@ -484,7 +485,7 @@ function Industrysolutions() {
                         <p>
                           Point of Sale (POS) software plays a pivotal role in
                           enhancing the efficiency and productivity of retail
-                          shops. It provides a centralized platform for managing
+                          shops. CapoBiz is a POS for diverse business needs. It provides a centralized platform for managing
                           sales, inventory, and customer transactions,
                           streamlining operations and reducing the likelihood of
                           errors. With real-time tracking of stock levels, POS
@@ -866,7 +867,7 @@ function Industrysolutions() {
                 <div className="content">
                   <img src={installmentManagement} alt="installment-management-software" className="img-fluid" />
                   <div className="text">
-                  <h3>Installment Management System</h3>
+                  <p style={{fontSize: '26px'}}>Installment Management System</p>
                   <p>Beyond traditional Point of Sale (POS) functions, our software seamlessly integrates installment management capabilities. Effortlessly track and manage installment payments, providing a streamlined and user-friendly solution for businesses. Elevate your financial control with our POS, ensuring a comprehensive approach to transaction management that goes beyond the ordinary.</p>
                   </div>
                 </div>
@@ -879,7 +880,7 @@ function Industrysolutions() {
                   <div className="content">
                     <img src={realEstateSoftware} alt="real-estate-management-software" className="img-fluid" />
                     <div className="text">
-                    <h3>Real Estate Accounting System</h3>
+                    <p style={{fontSize: '26px'}}>Real Estate Accounting System</p>
                     <p>Discover unparalleled control over your real estate ventures with our management software. Tailored for efficiency, our solution streamlines property management, tenant interactions, and financial tracking. Elevate your real estate operations with a user-friendly platform that ensures seamless management and optimization of your property portfolio. Welcome to a new era of real estate management, where precision and convenience converge for unparalleled success.</p>
                     </div>
                   </div>
@@ -892,7 +893,7 @@ function Industrysolutions() {
                   <div className="content">
                     <img src={distributionSoftware} alt="distribution-software" className="img-fluid" />
                     <div className="text">
-                    <h3>Distribution Management System</h3>
+                    <p style={{fontSize: '26px'}}>Distribution Management System</p>
                     <p>Revolutionize your distribution processes with our dedicated distribution software. Seamlessly manage inventory, streamline order fulfillment, and optimize logistics with a solution tailored for efficiency. From order placement to delivery, our software ensures precision, transparency, and enhanced control over your distribution network. Experience the power of seamless operations and elevated performance with our cutting-edge distribution management software.
                     </p>
                     </div>
@@ -905,7 +906,7 @@ function Industrysolutions() {
                   <div className="content">
                     <img src={bookingManagement} alt="booking-management-software" className="img-fluid" />
                     <div className="text">
-                    <h3>Booking Management System</h3>
+                    <p style={{fontSize: '26px'}}>Booking Management System</p>
                     <p>Experience a new level of convenience in booking management with our specialized software. Tailored for efficiency, our solution streamlines the entire booking process, from reservation to payment tracking. With user-friendly interfaces and robust features, our booking management software ensures precision and ease, transforming your reservation operations. Embrace a seamless and organized approach to bookings, optimizing your business for success.</p>
                     </div>
                   </div>

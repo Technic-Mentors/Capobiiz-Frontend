@@ -34,6 +34,22 @@ export default function UserLogin() {
     };
     return (
         <div>
+            <section className="inner-page-header">
+                <div className="inner-page-overlay">
+                    <div className="container">
+                        <div className="row slider d-flex justify-content-center py-7 align-items-center">
+                            <div className="col-md-12 text-center content-col">
+                                <h2 className="slider-heading">
+                                    Sign {" "}
+                                    <span style={{ color: "var(--secondary-color)" }}>
+                                        In
+                                    </span>{" "}
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <div style={{ backgroundColor: "#f1f6fe" }}>
                 <div className="container">
                     <div className="row d-flex justify-content-center">

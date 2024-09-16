@@ -23,43 +23,7 @@ function Retail() {
     AOS.init();
   }, []);
 
-  // var settings = {
-  //   dots: false,
-  //   arrows: false,
-  //   infinite: true,
-  //   slidesToShow: 4,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   speed: 7000,
-  //   autoplaySpeed: 0,
-  //   cssEase: "linear",
-  //   responsive: [
-  //     {
-  //       breakpoint: 1024,
-  //       settings: {
-  //         slidesToShow: 3,
-  //         slidesToScroll: 3,
-  //         infinite: true,
-  //         dots: true,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 600,
-  //       settings: {
-  //         slidesToShow: 2,
-  //         slidesToScroll: 2,
-  //         initialSlide: 2,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 480,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //       },
-  //     },
-  //   ],
-  // };
+  
 
 
   const [activeTab, setActiveTab] = useState("clothing-and-apparel");
@@ -75,18 +39,18 @@ function Retail() {
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-md-9 text-center" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <div className="section-header">
-                <h2>
-                  CapoBiz Retail: Empower Your Store with Seamless Management
-                </h2>
+                <h1>
+                  Get The Best Restail POS System For Your Business
+                </h1>
               </div>
               <p>
-                CapoBiz Retail software is crafted to amplify profitability and
+                CapoBiz Retail POS system is crafted to amplify profitability and
                 streamline operations for your retail enterprise. Say goodbye to
                 complex transactions and hello to seamless management with our
                 intuitive POS solution. Discover the simplicity of CapoBiz as it
                 streamlines your billing process, ensuring swift and precise
-                transactions that delight your customers. Experience the power
-                of CapoBiz Retail to reduce costs, drive profits, and propel the
+                transactions that delight your customers. Get the best retail POS system, with the power
+                of CapoBiz, to reduce costs, drive profits for your business, and propel the
                 growth of your retail store.
               </p>
               <Link to="/signup">
@@ -111,7 +75,7 @@ function Retail() {
                   <InventoryIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>Advanced Inventory Management</h5>
+                  <p style={{fontSize: '20px'}}>Advanced Inventory Management</p>
                   <p>
                     Take charge of your inventory with CapoBiz's intuitive
                     management tools, ensuring you have the right products at
@@ -126,7 +90,7 @@ function Retail() {
                   <AccountBoxIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>Seamless Accounting Integration</h5>
+                  <p style={{fontSize: '20px'}}>Seamless Accounting Integration</p>
                   <p>
                   Seamlessly integrate sales data with your accounting system, simplifying financial management and reporting.
                   </p>
@@ -139,7 +103,7 @@ function Retail() {
                   <ReceiptLongIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>Efficient Billing and Invoicing</h5>
+                  <p style={{fontSize: '20px'}}>Efficient Billing and Invoicing</p>
                   <p>
                   Speed up transactions with CapoBiz's swift billing processes and versatile payment options, ensuring customer satisfaction.
                   </p>
@@ -152,7 +116,7 @@ function Retail() {
                   <LocalShippingIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>Supply Chain Optimization</h5>
+                  <p style={{fontSize: '20px'}}>Supply Chain Optimization</p>
                   <p>
                   Optimize your supply chain operations with CapoBiz, facilitating smooth communication with suppliers and timely replenishment of stock.
                   </p>
@@ -167,7 +131,7 @@ function Retail() {
                   <LoyaltyIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>CRM and Customer Loyalty</h5>
+                  <p style={{fontSize: '20px'}}>CRM and Customer Loyalty</p>
                   <p>
                   Cultivate lasting customer relationships and encourage repeat business with CapoBiz's CRM tools and integrated loyalty programs.
                   </p>
@@ -180,7 +144,7 @@ function Retail() {
                   <SecurityIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>Business Intelligence And Security</h5>
+                  <p style={{fontSize: '20px'}}>Business Intelligence And Security</p>
                   <p>
                   Harness actionable insights with CapoBiz's robust analytics while safeguarding your business data with advanced security measures.
                   </p>
@@ -193,7 +157,7 @@ function Retail() {
                   <AssessmentIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>Comprehensive Reporting</h5>
+                  <p style={{fontSize: '20px'}}>Comprehensive Reporting</p>
                   <p>
                   CapoBiz offers comprehensive reporting capabilities, providing valuable insights to optimize business performance.
                   </p>
@@ -206,7 +170,7 @@ function Retail() {
                   <CloudDoneIcon className="mb-3 icon-tile feature-icon" />
                 </div>
                 <div className="icon-text">
-                  <h5>Cloud-Based Management</h5>
+                  <p style={{fontSize: '20px'}}>Cloud-Based Management</p>
                   <p>
                   CapoBiz facilitates flexible and accessible management with its cloud-based platform, ensuring seamless control from anywhere.
                   </p>
@@ -226,7 +190,7 @@ function Retail() {
         <div className="container">
           <div className="row d-flex justify-content-center">
             <div className="col-md-10" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-              <img src={mockImage} alt="" className="img-fluid" />
+              <img src={mockImage} alt="retail-pos-system" className="img-fluid" />
             </div>
           </div>
         </div>
@@ -239,10 +203,10 @@ function Retail() {
         <div className="container pt-5 pb-2">
           <div className="row">
             <div className="mb-5 text-center">
-              <h6 className="subtitle">Boost Your Sales</h6>
-              <h2 className="main-heading">
+              <h2 className="subtitle">Boost Your Sales</h2>
+              <h3 className="main-heading">
                 What Retail Businesses Are Supported By CapoBiz?
-              </h2>
+              </h3>
             </div>
             <div className="col-md-12 jutify-content-center align-items-center" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <ul
@@ -921,14 +885,14 @@ function Retail() {
         <div className="container">
           <div className="row">
             <div className="col-md-6" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-              <img src={retailPOSBenefits} alt="" className="img-fluid" />
+              <img src={retailPOSBenefits} alt="benefits-of-retail-pos-system" className="img-fluid" />
             </div>
             <div className="col-md-6" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <div className="section-header">
-                <h6 className="subtitle">Benefits Of CapoBiz</h6>
-                <h2 className="main-heading">
+                <h2 className="subtitle">Benefits Of CapoBiz</h2>
+                <h3 className="main-heading">
                 Empower Your Retail Business With CapoBiz POS Software
-                </h2>
+                </h3>
               </div>
               <p>
               Experience the transformative power of CapoBiz POS software tailored for retail businesses. Enjoy seamless operations, heightened efficiency, and enhanced customer satisfaction with our intuitive platform. From streamlined inventory management to swift transactions, CapoBiz equips you with the tools to make informed decisions, boost sales, and stay ahead of the competition. <br /><br /> With robust reporting, personalized customer engagement, and secure cloud-based management, CapoBiz is your ultimate partner for success in the retail industry.

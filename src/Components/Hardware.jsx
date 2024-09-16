@@ -29,13 +29,13 @@ function Hardware() {
           <div className="container">
             <div className="row slider d-flex justify-content-center py-7 align-items-center">
               <div className="col-md-12 text-center content-col">
-                <h2 className="slider-heading">
+                <h1 className="slider-heading">
                   Essential Hardware For{" "}
                   <span style={{ color: "var(--secondary-color)" }}>
                     Optimal POS System
                   </span>{" "}
                   Performance
-                </h2>
+                </h1>
               </div>
             </div>
           </div>
@@ -46,36 +46,13 @@ function Hardware() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h6 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Essential Hardware For Seamless POS</h6>
-              <h2 className="main-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                Comprehensive POS Hardware Integration
-              </h2>
+              <h2 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Essential Hardware For Seamless POS</h2>
+              <h3 className="main-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
+                Compatible POS Hardware Integration
+              </h3>
             </div>
           </div>
           <div className="row">
-            {/* <div className="col-md-6">
-              <div className="hardware-box d-flex ">
-                <div className="hardware-img ">
-                  <img
-                    src={posTerminals}
-                    alt="pos-terminals"
-                    className="img-fluid"
-                    style={{ height: "auto", width: "100%" }}
-                  />
-                </div>
-                <div className="content">
-                  <h5 className="fw-bold">POS Terminals</h5>
-                  <p>
-                    POS terminals are the main interface for the software,
-                    allowing cashiers to input sales data and process
-                    transactions. These devices are equipped with touch screens
-                    and often include additional features like customer displays
-                    and integrated card readers.
-                  </p>
-                </div>
-              </div>
-            </div> */}
-
             <div className="col-md-6">
               <div className="hardware-box  ">
                 <div className="hardware-img ">
@@ -87,9 +64,9 @@ function Hardware() {
                   />
                 </div>
                 <div className="content" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                  <h5 className="fw-bold">POS Terminals</h5>
+                  <p style={{fontSize: '20px'}} className="fw-bold">POS Terminals</p>
                   <p>
-                  POS terminals are the main interface for the software, allowing cashiers to input sales data and process transactions. These devices are equipped with touch screens and often include additional features like customer displays and integrated card readers.
+                  POS terminals are the main interface for the software, allowing cashiers to input sales data and process transactions. These devices are equipped with touch screens and often include additional features like customer displays and integrated card readers which help achieve optimal POS system performance.
                   </p>
                 </div>
               </div>
@@ -106,7 +83,7 @@ function Hardware() {
                   />
                 </div>
                 <div className="content" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                  <h5 className="fw-bold">Barcode Scanners</h5>
+                  <p style={{fontSize: '20px'}} className="fw-bold">Barcode Scanners</p>
                   <p>
                     Barcode scanners are essential for quickly and accurately
                     entering product information at checkout. They improve
@@ -129,7 +106,7 @@ function Hardware() {
                   />
                 </div>
                 <div className="content" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                  <h5 className="fw-bold">Receipt Printers</h5>
+                  <p style={{fontSize: '20px'}} className="fw-bold">Receipt Printers</p>
                   <p>
                     Receipt printers provide customers with printed records of
                     their purchases. These devices can print quickly and
@@ -150,7 +127,7 @@ function Hardware() {
                   />
                 </div>
                 <div className="content" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                  <h5 className="fw-bold">Cash Drawers</h5>
+                  <p style={{fontSize: '20px'}} className="fw-bold">Cash Drawers</p>
                   <p>
                     Cash drawers store cash securely and can be integrated with
                     POS systems to open automatically during transactions. They
@@ -173,7 +150,7 @@ function Hardware() {
                   />
                 </div>
                 <div className="content" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                  <h5 className="fw-bold">Customer Displays</h5>
+                  <p style={{fontSize: '20px'}} className="fw-bold">Customer Displays</p>
                   <p>
                   Customer displays show transaction details to customers in real-time. These displays can be standalone units or integrated with POS terminals, enhancing transparency and trust at the point of sale.
                   </p>
@@ -191,7 +168,7 @@ function Hardware() {
                   />
                 </div>
                 <div className="content" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                  <h5 className="fw-bold">Card Readers</h5>
+                  <p style={{fontSize: '20px'}} className="fw-bold">Card Readers</p>
                   <p>
                   Card readers allow for the processing of credit and debit card transactions. Modern card readers support a variety of payment methods, including chip cards, contactless payments, and mobile wallets.
                   </p>
@@ -211,7 +188,7 @@ function Hardware() {
                   />
                 </div>
                 <div className="content" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                  <h5 className="fw-bold">Label Printers</h5>
+                  <p style={{fontSize: '20px'}} className="fw-bold">Label Printers</p>
                   <p>
                   Label printers are used for printing product labels and price tags. They are vital for inventory management and ensuring products are properly tagged and priced on the shelves.
                   </p>
@@ -229,7 +206,7 @@ function Hardware() {
                   />
                 </div>
                 <div className="content" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                  <h5 className="fw-bold">POS Tablets</h5>
+                  <p style={{fontSize: '20px'}} className="fw-bold">POS Tablets</p>
                   <p>
                   POS tablets offer a portable solution for sales transactions, ideal for businesses with mobile sales needs or limited counter space. These devices can run the same POS software as traditional terminals.
                   </p>
@@ -249,7 +226,7 @@ function Hardware() {
                   />
                 </div>
                 <div className="content" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                  <h5 className="fw-bold">Handheld Scanners</h5>
+                  <p style={{fontSize: '20px'}} className="fw-bold">Handheld Scanners</p>
                   <p>
                   Handheld scanners are versatile devices used for inventory management, price checks, and mobile transactions. They offer mobility and convenience, making them ideal for busy retail environments.
                   </p>
@@ -266,7 +243,7 @@ function Hardware() {
                   />
                 </div>
                 <div className="content" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                  <h5 className="fw-bold">Digital Scales</h5>
+                  <p style={{fontSize: '20px'}} className="fw-bold">Digital Scales</p>
                   <p>
                   Digital scales are essential for businesses that sell products by weight, such as grocery stores and delis. They integrate with POS systems to ensure accurate pricing based on weight measurements.
                   </p>
@@ -287,7 +264,7 @@ function Hardware() {
                   />
                 </div>
                 <div className="content" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                  <h5 className="fw-bold">Biometric Attendance System</h5>
+                  <p style={{fontSize: '20px'}} className="fw-bold">Biometric Attendance System</p>
                   <p>
                   Biometric attendance systems use fingerprint or facial recognition to accurately track employee attendance and ensure secure access. These systems enhance security and streamline workforce management.
                   </p>
@@ -304,7 +281,7 @@ function Hardware() {
                   />
                 </div>
                 <div className="content" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                  <h5 className="fw-bold">Face Recognition System</h5>
+                  <p style={{fontSize: '20px'}} className="fw-bold">Face Recognition System</p>
                   <p>
                   Facial recognition systems offer advanced security and efficiency by identifying individuals through unique facial features. Ideal for both attendance tracking and customer interactions, these systems enhance overall operational security.
                   </p>

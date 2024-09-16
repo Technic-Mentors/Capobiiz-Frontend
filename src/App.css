@@ -81,6 +81,7 @@ a {
 
 .subtitle {
   color: var(--secondary-color);
+  font-size: 17px;
 }
 
 .subtitle::before {
@@ -412,8 +413,11 @@ a {
   color: #fff !important;
 }
 
+.features-card:hover .feature-title-home{
+  color: #fff !important;
+}
 
-.features-card:hover h2,
+
 .features-card:hover p,
 .features-card:hover i {
   color: #fff;
@@ -799,7 +803,11 @@ a {
   color: #000;
 }
 
-.contact-cards h6:hover {
+.contact-cards p{
+  font-weight: bold;
+}
+
+.contact-cards p:hover {
   color: var(--secondary-color)
 }
 
@@ -863,6 +871,16 @@ a {
   background-color: #fafafa;
   padding: 8px;
 }
+
+.footer-signup input{
+  color: #fff !important;
+}
+
+.footer-signup input::placeholder{
+  color: #fff;
+}
+
+
 
 .social-icons i {
   color: #fff;

@@ -22,13 +22,13 @@ function About() {
           <div className="container">
             <div className="row slider d-flex justify-content-center py-7 align-items-center">
               <div className="col-md-12 text-center content-col">
-                <h2 className="slider-heading">
+                <h1 className="slider-heading">
                   Get To Know{" "}
                   <span style={{ color: "var(--secondary-color)" }}>
                     About CapoBiz
                   </span>{" "}
                   Software
-                </h2>
+                </h1>
 
               </div>
 
@@ -42,10 +42,10 @@ function About() {
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-md-6 col-12" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1200">
               <div className="section-heading">
-                <h6 className="subtitle" style={{ color: "var(--secondary-color)" }}>
+                <h2 className="subtitle" style={{ color: "var(--secondary-color)" }}>
                   Smart POS, Your Business Ally
-                </h6>
-                <h1
+                </h2>
+                <h3
                   style={{
                     fontSize: "32px",
                     color: "var(--primary-color)",
@@ -53,12 +53,12 @@ function About() {
                   }}
                 >
                   Elevate Efficiency with Our Point of Sale Software
-                </h1>
+                </h3>
               </div>
               <p>
                 Step into a new era of business management with our cutting-edge
                 Point of Sale (POS) system. We're not just redefining
-                transactions; we're revolutionizing the way you run your
+                transactions; we're retail software innovators, revolutionizing the way you run your
                 business. Say goodbye to complexity, and welcome streamlined
                 operations and unmatched efficiency. Explore the future of POS
                 solutions with us, where innovation meets seamless
@@ -150,25 +150,25 @@ function About() {
               <div className="col-md-3 col-6">
                 <div className="icon-box text-center">
                   <i className="fas fa-users mb-4"></i>
-                  <h6 className=''>Unlimited Account Openings</h6>
+                  <p className="" style={{ fontSize: '16px' }}>Unlimited Account Openings</p>
                 </div>
               </div>
               <div className="col-md-3 col-6">
                 <div className="icon-box text-center">
                   <i className="fas fa-cogs mb-4"></i>
-                  <h6 className="">Customized Product Defining</h6>
+                  <p className="" style={{ fontSize: '16px' }}>Customized Product Defining</p>
                 </div>
               </div>
               <div className="col-md-3 col-6 culprit">
                 <div className="icon-box text-center">
                   <i className="fas fa-box mb-4"></i>
-                  <h6 className="">Min Stock Management Feature</h6>
+                  <p className="" style={{ fontSize: '16px' }}>Min Stock Management Feature</p>
                 </div>
               </div>
               <div className="col-md-3 col-6 culprit">
                 <div className="icon-box text-center">
                   <i className="fas fa-undo mb-4"></i>
-                  <h6 className="">Product Purchase Return Option</h6>
+                  <p className="" style={{ fontSize: '16px' }}>Product Purchase Return Option</p>
                 </div>
               </div>
             </div>
@@ -177,21 +177,21 @@ function About() {
               <div className="col-md-3 col-6">
                 <div className="icon-box text-center">
                   <i className="fas  fa-arrow-circle-left mb-4"></i>
-                  <h6 className="">Requirements and Sale Return</h6>
+                  <p className="" style={{ fontSize: '16px' }}>Requirements and Sale Return</p>
                 </div>
               </div>
 
               <div className="col-md-3 col-6">
                 <div className="icon-box text-center">
                   <i className="fas  fas fa-sync mb-4"></i>
-                  <h6 className="">Auto Stock Updating Feature</h6>
+                  <p className="" style={{ fontSize: '16px' }}>Auto Stock Updating Feature</p>
                 </div>
               </div>
 
               <div className="col-md-3 col-6 culprit faster-billing">
                 <div className="icon-box text-center">
                   <i className="fas  fa-money-check-alt mb-4"></i>
-                  <h6 className="">Faster Retail Billing Functionality</h6>
+                  <p className="" style={{ fontSize: '16px' }}>Faster Retail Billing Functionality</p>
                 </div>
               </div>
 
@@ -203,14 +203,14 @@ function About() {
               <div className="col-md-3 col-6">
                 <div className="icon-box text-center">
                   <i className="fas  fa-chart-bar mb-4"></i>
-                  <h6 className="">Detailed Sales Reports</h6>
+                  <p className="" style={{ fontSize: '16px' }}>Detailed Sales Reports</p>
                 </div>
               </div>
 
               <div className="col-md-3 col-6">
                 <div className="icon-box text-center">
                   <i className="fas  fa-lock mb-4"></i>
-                  <h6 className="">Secure Data Encryption</h6>
+                  <p className="" style={{ fontSize: '16px' }}>Secure Data Encryption</p>
                 </div>
               </div>
 
@@ -224,14 +224,14 @@ function About() {
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-md-6" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1200">
               <div className='mt-4'>
-                <h6 className="subtitle">Discover the Difference</h6>
-                <h2 className="main-heading mb-4" style={{
+                <h2 className="subtitle">Discover the Difference</h2>
+                <h3 className="main-heading mb-4" style={{
                   fontSize: "32px",
                   color: "var(--primary-color)",
                   fontWeight: "bold",
                 }}>Compelling Reasons to Choose CapoBiz For Your Business
-                </h2>
-                <p>choosing the right Point-of-Sale (POS) software is crucial for success. CapoBiz stands out as a game-changer, providing a host of innovative features that redefine your business transactions.</p>
+                </h3>
+                <p>choosing the right Point-of-Sale (POS) software is crucial for success. CapoBiz stands out as a game-changer, providing a host of innovative features that redefine your business transactions. Get to know more about CapoBiz POS Software!</p>
                 <div>
                   <ul
                     style={{
@@ -341,7 +341,7 @@ function About() {
           data-aos-easing="ease-in-out"
         >
           <div className="section-title">
-          <h2 className="subtitle text-center">F.A.Q</h2>
+            <h2 className="subtitle text-center">F.A.Q</h2>
             <p className='text-center'> Frequently Asked <span>Questions</span> </p>
             <p className='text-center'>
               Our curated list of the most frequently asked questions about us.
@@ -351,7 +351,7 @@ function About() {
           <div className="row justify-content-center">
             <div className="col-xl-10">
               <ul className="faq-list">
-               
+
                 <li>
                   <div
                     data-bs-toggle="collapse"
@@ -368,7 +368,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    CapoBiz is a robust software solution designed to help businesses manage stock/inventory, sales, purchases, production, manufacturing, and more. It offers tools for inventory tracking, sales reporting, order management, and production planning, among other features.
+                      CapoBiz is a robust software solution designed to help businesses manage stock/inventory, sales, purchases, production, manufacturing, and more. It offers tools for inventory tracking, sales reporting, order management, and production planning, among other features.
                     </p>
                   </div>
                 </li>
@@ -388,7 +388,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    CapoBiz is designed to cater to a wide range of industries including retail shops, supermarkets, pharmacies, mobile shops, garment stores, shoe shops, fertilizers industry, tiles industry, and more. Its customizable features make it adaptable to the unique needs of various businesses.
+                      CapoBiz is designed to cater to a wide range of industries including retail shops, supermarkets, pharmacies, mobile shops, garment stores, shoe shops, fertilizers industry, tiles industry, and more. Its customizable features make it adaptable to the unique needs of various businesses.
                     </p>
                   </div>
                 </li>
@@ -408,7 +408,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    CapoBiz offers restaurant management software designed to streamline operations, manage inventory, track sales, handle reservations, and improve customer service. It includes features such as menu management, table booking, kitchen order management, and billing.
+                      CapoBiz offers restaurant management software designed to streamline operations, manage inventory, track sales, handle reservations, and improve customer service. It includes features such as menu management, table booking, kitchen order management, and billing.
                     </p>
                   </div>
                 </li>
@@ -428,7 +428,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    Yes, CapoBiz provides a comprehensive real estate management software solution to streamline property management tasks such as listings management, tenant tracking, lease management, maintenance scheduling, and financial reporting.
+                      Yes, CapoBiz provides a comprehensive real estate management software solution to streamline property management tasks such as listings management, tenant tracking, lease management, maintenance scheduling, and financial reporting.
                     </p>
                   </div>
                 </li>
@@ -448,7 +448,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    CapoBiz gym management software helps fitness centers streamline membership management, class scheduling, trainer scheduling, billing, and attendance tracking. It enables gym owners to efficiently run their operations and enhance member satisfaction.
+                      CapoBiz gym management software helps fitness centers streamline membership management, class scheduling, trainer scheduling, billing, and attendance tracking. It enables gym owners to efficiently run their operations and enhance member satisfaction.
                     </p>
                   </div>
                 </li>
@@ -468,7 +468,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    Absolutely! CapoBiz offers tailor shop management software tailored to the unique needs of tailoring businesses. It includes features for measuring, order management, fabric tracking, invoicing, and customer management..
+                      Absolutely! CapoBiz offers tailor shop management software tailored to the unique needs of tailoring businesses. It includes features for measuring, order management, fabric tracking, invoicing, and customer management..
                     </p>
                   </div>
                 </li>
@@ -488,7 +488,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    Yes, CapoBiz offers trading software solutions to manage trading operations efficiently. It includes features for order processing, inventory management, sales analysis, purchase management, and reporting.
+                      Yes, CapoBiz offers trading software solutions to manage trading operations efficiently. It includes features for order processing, inventory management, sales analysis, purchase management, and reporting.
                     </p>
                   </div>
                 </li>
@@ -508,7 +508,7 @@ function About() {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                    CapoBiz provides office management software solutions to streamline administrative tasks, enhance productivity, and improve communication within the office environment. It offers features for task management, document sharing, employee scheduling, and more.
+                      CapoBiz provides office management software solutions to streamline administrative tasks, enhance productivity, and improve communication within the office environment. It offers features for task management, document sharing, employee scheduling, and more.
                     </p>
                   </div>
                 </li>
@@ -517,15 +517,15 @@ function About() {
           </div>
         </div>
         <div className="d-flex justify-content-center">
-        <button className="site-buttons">
-                <Link to="/faqs" style={{ color: "var(--primary-color)" }}>
-                View More <span>&rarr;</span>
-                </Link>
-              </button>
+          <button className="site-buttons">
+            <Link to="/faqs" style={{ color: "var(--primary-color)" }}>
+              View More <span>&rarr;</span>
+            </Link>
+          </button>
         </div>
       </section>
       {/* FAQ end */}
-      
+
 
       <Clients />
 

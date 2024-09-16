@@ -15,9 +15,11 @@ export default function Help() {
           <div className="container">
             <div className="row slider d-flex justify-content-center py-7 align-items-center">
               <div className="col-md-12 text-center content-col">
-                <h2 className="slider-heading">
-                  Help Center
-                </h2>
+                <h1 className="slider-heading">
+                 Have Queries? Talk To Our  {" "} <span style={{ color: "var(--secondary-color)" }}>
+                   Help Center
+                  </span>
+                </h1>
               </div>
 
             </div>
@@ -29,18 +31,18 @@ export default function Help() {
         <div className="row help-card justify-content-between">
           <div className="col-md-3">
             <i className='fas mb-3 fa-ticket-alt'></i>
-            <h5>Streamlined Ticketing</h5>
+            <p style={{fontSize: '17px', fontWeight: 'bold'}}>Streamlined Ticketing</p>
             <p> Easily log and track issues for swift resolution and seamless communication.</p>
           </div>
           <div className="col-md-3">
             <i className='fas mb-3 fa-headset'></i>
-            <h5>Tailored Support</h5>
+            <p style={{fontSize: '17px', fontWeight: 'bold'}}>Tailored Support</p>
             <p>Get tailored assistance for your school's unique challenges.</p>
 
           </div>
           <div className="col-md-3">
             <i className='fas mb-3 fa-chart-line'></i>
-            <h5>Continuous Improvements</h5>
+            <p style={{fontSize: '17px', fontWeight: 'bold'}}>Continuous Improvements</p>
             <p> Share your experiences and suggestions for continuous software improvement.</p>
 
           </div>
@@ -51,18 +53,17 @@ export default function Help() {
         <div className="container py-4">
           <div className="row help-card align-items-center justify-content-between">
             <div className="col-md-6 help_points">
-              <h1>Uh Oh! Having An Issue?</h1>
-              <p>  Let us know if you run into any glitches while using our software. Your feedback helps us fix issues and make things smoother for everyone!</p>
-              <h5> How to report an issue:</h5>
+              <p style={{fontSize: '30px'}}>Uh Oh! Having An Issue?</p>
+              <p>  Do you have queries related to using our software, talk to our help center. We offer comprehensive support and resources for our retail software. Your feedback helps us fix issues and make things smoother for everyone!</p>
+              <p style={{fontSize: "17px", fontWeight: "bold", color: "--var(secondary-color)"}}> How to report an issue:</p>
               <li>Briefly explain what went wrong.</li>
               <li>If you can, show us how to make the bug happen again (step-by-step).</li>
               <li>Copy and paste any error messages that pop up.</li>
 
-              <h5 className='mt-3'> How to Report:</h5>
               Still need guidance? <Link to="/userLogin" className='geneTicketLink'> Generate a ticket</Link> of your problem and our support team will take you through the process to resolve your issue.
             </div>
             <div className="col-md-5">
-              <img src={issueImg} alt="" className='img-fluid' />
+              <img src={issueImg} alt="pos-software-help-center" className='img-fluid' />
             </div>
           </div>
         </div >

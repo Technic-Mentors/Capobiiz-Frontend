@@ -15,20 +15,18 @@ function Topbar() {
                         <div className="col-md-8">
                             <div className="top-bar-left">
                                 <div className="text mt-2">
-                                    
-                                    <h2 style={{ fontFamily: 'poppins' }}> For Demo: <i className="fab fa-whatsapp"></i>&nbsp;+923 111 122 144</h2>
+                                    <p className='text-white' style={{ fontFamily: 'poppins' }}> For Demo: <i className="fab fa-whatsapp"></i>&nbsp;+923 111 122 144</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="top-bar-right">
                                 <div className="social mt-2">
-                                    <a href="/#"><i className="fab fa-twitter"></i></a>
-                                    <a href="https://www.facebook.com/CapoBiz"><i className="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com/capobiz/"><i className="fab fa-instagram"></i></a>
-                                    <a href="https://twitter.com/TechnicMentors"><i className="fab fa-twitter"></i></a>
-                                    <a href="https://www.youtube.com/c/TechnicMentors"><i className="fab fa-youtube"></i></a>
-                                    <a href="https://www.linkedin.com/in/TechnicMentors/"><i className="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.facebook.com/CapoBiz"><i className="fab fa-facebook-f"></i> <span className='d-none'>Face</span></a>
+                                    <a href="https://www.instagram.com/capobiz/"><i className="fab fa-instagram"></i> <span className='d-none'>Insta</span></a>
+                                    <a href="https://twitter.com/TechnicMentors"><i className="fab fa-twitter"></i> <span className='d-none'>X</span></a>
+                                    <a href="https://www.youtube.com/c/TechnicMentors"><i className="fab fa-youtube"></i> <span className='d-none'>YT</span></a>
+                                    <a href="https://www.linkedin.com/in/TechnicMentors/"><i className="fab fa-linkedin-in"></i> <span className='d-none'>In</span></a>
                                 </div>
                             </div>
                         </div>
